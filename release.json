@@ -1,0 +1,38 @@
+{
+  "appCommit": "29acc3fdeb394c3f6fb569ae58ba3b94f45e2f4f",
+  "publicContentVersion": "sha256:9d27381d1d7cebae21f4a69c649578b1fce46a6359404d26c1feaaaf18a9cdcf",
+  "files": [
+    {
+      "path": "CNAME",
+      "sha256": "0898028f3d9cdbe0b113a9c780036b2cd0e536fe8e7afba9ff0d6b7f3c2270a6"
+    },
+    {
+      "path": "_astro/index.CU9-Lox1.css",
+      "sha256": "c5f5b1ce1f8267ba48140c7fa18e324664e5f29b50ef6a4310ce52fd445d7993"
+    },
+    {
+      "path": "_astro/index.DFuDomsB.css",
+      "sha256": "f5d87f2116c9ff6e07e4c8b9f27baa44ac5716327ac97434964b53b2c3ae9e64"
+    },
+    {
+      "path": "_astro/index.astro_astro_type_script_index_0_lang.BfEqwIPg.js",
+      "sha256": "359e29f5b2184c8528059925463e63f6c9c3262c3917dc60bfcdd6e6fdf6a779"
+    },
+    {
+      "path": "_astro/static-work.BzBMVnPM.js",
+      "sha256": "827394f2496ec43eb04065b799eca2af5e6d38cde3850413bbb4afd0ddd97ac5"
+    },
+    {
+      "path": "index.html",
+      "sha256": "f0a77e3fe929d2126c0f1feec4c18d5d47c80c25aeb7808a0777df9ebed43959"
+    },
+    {
+      "path": "vendor/core-energy/README.md",
+      "sha256": "6e31bc81ecc3df70b7a855a2a7056ea72fbd3d83ef41a315334c9978a5d01c6a"
+    },
+    {
+      "path": "vendor/core-energy/core-energy.js",
+      "sha256": "53bc384a347737e619c76ff73669f2c1639d0e7e731518c75a0c638333a628ba"
+    }
+  ]
+}

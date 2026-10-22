@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "target": "pages",
+  "publicContentVersion": "sha256:9d27381d1d7cebae21f4a69c649578b1fce46a6359404d26c1feaaaf18a9cdcf",
+  "itemCount": 7,
+  "chunks": [
+    {
+      "file": "_astro/static-work.BzBMVnPM.js",
+      "sha256": "827394f2496ec43eb04065b799eca2af5e6d38cde3850413bbb4afd0ddd97ac5"
+    }
+  ]
+}

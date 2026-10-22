@@ -1,0 +1,1 @@
+:root{color-scheme:dark}html,body{margin:0;height:100%;background:#0a0d10;overflow:hidden}.stage{position:fixed;inset:0;overflow:hidden}.framed-notice{display:grid;place-content:center;gap:1rem;height:100%;color:#e8eef2;font:1rem/1.5 system-ui,sans-serif;text-align:center}.framed-notice a{color:#9fd3ff}

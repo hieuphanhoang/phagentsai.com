@@ -1,0 +1,63 @@
+# Publishes the checked candidate to GitHub Pages at phagentsai.com (F32 task 1.4, AGENT-112, ASK-030).
+#
+# This is the SECOND gate. A push is public the moment it lands, so the privacy gate is the local
+# check of exactly what is pushed (R112-1). Here, check-candidate.mjs - plain Node, no installs -
+# refuses to deploy anything that is not exactly the recorded candidate, then GitHub's own Pages
+# actions upload site/ and deploy it. Every action is pinned to a full commit, reviewed 2026-10-22:
+#   actions/checkout v7.0.1, actions/upload-pages-artifact v5.0.0, actions/deploy-pages v5.0.1.
+name: Publish
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Nothing by default; each job asks for exactly what it needs.
+permissions: {}
+
+# One run at a time, though not necessarily first in, first out. That alone does not stop a
+# re-run of an older commit's workflow from deploying it again, so the deploy job also refuses
+# any commit that is not main's current head when it checks - a point-in-time check, not a lock
+# (AGENT-112, Codex's workflow notes).
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  check:
+    # A manually chosen ref other than main never gets near the Pages permissions.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check the candidate (no installs)
+        run: node check-candidate.mjs .
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+  deploy:
+    needs: check
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # The repository is public, so its current main head is read without a token.
+      - name: Deploy only main's current head
+        env:
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          head="$(curl -fsSL --connect-timeout 10 --max-time 30 -H 'Accept: application/vnd.github.sha' "https://api.github.com/repos/$REPO/commits/main")"
+          if [ "$head" != "$SHA" ]; then echo "candidate: not main's current head, so not deployed"; exit 1; fi
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
