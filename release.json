@@ -1,5 +1,5 @@
 {
-  "appCommit": "37efd492e44d00dc6730ced29f511adf2328318e",
+  "appCommit": "5143be9f26a01fd72c70316d55b8bdf8997930e3",
   "publicContentVersion": "sha256:9d27381d1d7cebae21f4a69c649578b1fce46a6359404d26c1feaaaf18a9cdcf",
   "files": [
     {
@@ -7,24 +7,48 @@
       "sha256": "0898028f3d9cdbe0b113a9c780036b2cd0e536fe8e7afba9ff0d6b7f3c2270a6"
     },
     {
-      "path": "_astro/index.BxZg5GCW.css",
-      "sha256": "ee4f6a9c1863f22eb07554f99db4cc59ebd5f72e061839e9b5dcb73709fb1d62"
+      "path": "_astro/crown-strands-BOUkYnN7.BOUkYnN7.bin",
+      "sha256": "0bfcfba5508e6fc5f24235b99846cf7f10773000f6cec9737f222643c5332774"
+    },
+    {
+      "path": "_astro/crown-strands-binding-DsnIHzQ4.DsnIHzQ4.bin",
+      "sha256": "94d15b12ed9e85cbffb876331c91c11275bd7bce4cfb6dacc47333c1dfc44e37"
+    },
+    {
+      "path": "_astro/index.BoOZ8unI.css",
+      "sha256": "57586fad94c77debc5307095a0229162f9c7d7598922f60ef0649c0f34436908"
     },
     {
       "path": "_astro/index.DFuDomsB.css",
       "sha256": "f5d87f2116c9ff6e07e4c8b9f27baa44ac5716327ac97434964b53b2c3ae9e64"
     },
     {
-      "path": "_astro/index.astro_astro_type_script_index_0_lang.DwWjtpM4.js",
-      "sha256": "27aa8b87a28a19b45fa13372b274821883c9a5d1eaea3bda1e52409c851ab01e"
+      "path": "_astro/index.astro_astro_type_script_index_0_lang.DQa67wC1.js",
+      "sha256": "f3647707c02d9ffa6c41957f15dfe9a66f7c5e170bc5d8845bdffeae4f2a1bfa"
     },
     {
-      "path": "_astro/static-work.Cmn2KjUG.js",
-      "sha256": "01dd8199e32c4575edd35cf293e68342209a02ca4ee02b398bd39c35b394f29e"
+      "path": "_astro/nexara-3d-D8O9cFkc.2SKHnR4L.js",
+      "sha256": "bc8a632688eb0411d1a0e7974bb4f47b4a0f39cf767d84fabaccb0de6751c017"
+    },
+    {
+      "path": "_astro/nexara-guide.aLDPzBM2.js",
+      "sha256": "a757b7b29e8443efaf2a82e984dea2969770c7b5c78754eb33ba32a312e5c579"
+    },
+    {
+      "path": "_astro/nexara-head02-v2-DJyG5Sw4.DJyG5Sw4.glb",
+      "sha256": "289481a8760cee17b63ffa053331719ed522a3742e931bdb9c6bdef46034b26d"
+    },
+    {
+      "path": "_astro/poster-front-C-hjIrgw.C-hjIrgw.png",
+      "sha256": "7644cfa34644c0f8449d12ea3f0b955565f6d773a5e76f9ffdce3c5f2f7e9dc5"
+    },
+    {
+      "path": "_astro/static-work.BRoKewm8.js",
+      "sha256": "8bd7671f90818bfd635b632e4f906e22febd2919696f2946d33b4d8ccdd15222"
     },
     {
       "path": "index.html",
-      "sha256": "ca2afb6397ea8da0e684e60795e3e3591c2128b01e7b02ee6ed5f3fcda334450"
+      "sha256": "a7fc37c8fdc132ab53749e92d426e343e8751b4bb9e220217f4bfe8eb4c78f64"
     },
     {
       "path": "vendor/core-energy/README.md",
