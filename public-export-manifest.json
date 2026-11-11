@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "target": "pages",
-  "publicContentVersion": "sha256:9d27381d1d7cebae21f4a69c649578b1fce46a6359404d26c1feaaaf18a9cdcf",
-  "itemCount": 7,
+  "publicContentVersion": "sha256:c172494b8c4f6a1d16983198147663b17af13348a31e5cf62425723ec632efcf",
+  "itemCount": 8,
   "chunks": [
     {
-      "file": "_astro/static-work.CPLq71Xq.js",
-      "sha256": "eb8b931296878b429870e4d562fe7b6299c23283ba172151d83f1d3cc10f1a26"
+      "file": "_astro/static-work.BdIY6xSm.js",
+      "sha256": "b852eabe12fedaf0382f48e85c53ebac9f8f95104ad2957c783202bd4257ec0b"
     }
   ]
 }
