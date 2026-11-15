@@ -1,5 +1,5 @@
 {
-  "appCommit": "eaeebbeb6cdeb1eb096b97b20dc2dc5b02d3d7c9",
+  "appCommit": "79772998c0092f9bc0c5c304c48e0598aa3ecd79",
   "publicContentVersion": "sha256:c172494b8c4f6a1d16983198147663b17af13348a31e5cf62425723ec632efcf",
   "files": [
     {
@@ -15,24 +15,24 @@
       "sha256": "94d15b12ed9e85cbffb876331c91c11275bd7bce4cfb6dacc47333c1dfc44e37"
     },
     {
-      "path": "_astro/index.BMHsv3j0.css",
-      "sha256": "0b5949fcbfa67e3228852386df67287eb9870d5ff8575b6f4262ce518ae3a8b0"
+      "path": "_astro/index.CbVPnqD0.css",
+      "sha256": "79ee98f73b0b7879719077ab90baa5d27ee0ad961b701d6c9d00227ba5ec9a81"
     },
     {
       "path": "_astro/index.DFuDomsB.css",
       "sha256": "f5d87f2116c9ff6e07e4c8b9f27baa44ac5716327ac97434964b53b2c3ae9e64"
     },
     {
-      "path": "_astro/index.astro_astro_type_script_index_0_lang.CeZYJ3UM.js",
-      "sha256": "dd6f182d9b69f7043f36a40b721cf50d695978e46b217499f68ea95958133e8f"
+      "path": "_astro/index.astro_astro_type_script_index_0_lang.UEKn72HA.js",
+      "sha256": "c6c4ca7781cb950d5f5c3ebe4308a3d7304d2ff3c455cbb4752985287f123f78"
     },
     {
-      "path": "_astro/nexara-3d-CTjaK2Eu.CONKLuua.js",
-      "sha256": "b621b05dd3600b49d825eb50bde8b92b40264565ec5844da4119f842e26d4a80"
+      "path": "_astro/nexara-3d-CTjaK2Eu.CY3FIibY.js",
+      "sha256": "7f45080076f858bb28997efdc3a936448fb7c4b56954035cd627e04250aff41f"
     },
     {
-      "path": "_astro/nexara-guide.CAtOOjrV.js",
-      "sha256": "b15c178d8db4543edc13cfa502b7e0393ee867045d1683e6afe63a1d98e4c71d"
+      "path": "_astro/nexara-guide.D7lawZfy.js",
+      "sha256": "4cdf494bf76ee44a281e33fcade26a103b9d0ece286dd8f260c1e1cc2156194e"
     },
     {
       "path": "_astro/nexara-head02-v2-DJyG5Sw4.DJyG5Sw4.glb",
@@ -43,12 +43,12 @@
       "sha256": "7644cfa34644c0f8449d12ea3f0b955565f6d773a5e76f9ffdce3c5f2f7e9dc5"
     },
     {
-      "path": "_astro/static-work.C6KerUHV.js",
-      "sha256": "6346639b33c71d97ee661a0a068671025ce3389fd07d57f9a671e0c36408e6cb"
+      "path": "_astro/static-work.HmAq076p.js",
+      "sha256": "27e839bc12814ba67a180a4547241946e75ae4de080998a4ec77702c8a2b381a"
     },
     {
       "path": "index.html",
-      "sha256": "483280d010fa01e10556ae76dce4ed0de3d5e2148b49569c6a6ad6421ce8ce2f"
+      "sha256": "ed61dbe7b0622b56161558140406c83d7b9b3b30cc51988acc607f0a3e9c3085"
     },
     {
       "path": "vendor/core-energy/README.md",
