@@ -1,5 +1,5 @@
 {
-  "appCommit": "d38cb47044f797e4010a6341078da84e86608885",
+  "appCommit": "6b09d523efb8c46e71fd1b076e7dd283a02adeb2",
   "publicContentVersion": "sha256:c172494b8c4f6a1d16983198147663b17af13348a31e5cf62425723ec632efcf",
   "files": [
     {
@@ -23,16 +23,16 @@
       "sha256": "0a037750b1669fc691a9f5d1bc59722c91af7245342b5b813168779ca255d06c"
     },
     {
-      "path": "_astro/index.astro_astro_type_script_index_0_lang.CGgvEMSg.js",
-      "sha256": "d9f072de07925474b2aa1b282558e27c3e89510d37a1c65eec2a10c91bbcebe5"
+      "path": "_astro/index.astro_astro_type_script_index_0_lang.CvX35DMQ.js",
+      "sha256": "7916b6348502dd8a1dbc67eae75ee6499835eb8fc952361c27dbe48389692960"
     },
     {
-      "path": "_astro/nexara-3d-CTjaK2Eu.Bk4CeGhv.js",
-      "sha256": "d2da63aa178c64a275cf540d843ef6a689ff733199ee41f5a89258b65251da49"
+      "path": "_astro/nexara-3d-CTjaK2Eu.DelrBlcI.js",
+      "sha256": "05782d65a81ab1c5222cc2bc57e255384342ea08e1619e23a0be7b9babc88188"
     },
     {
-      "path": "_astro/nexara-guide.DLPD-YpU.js",
-      "sha256": "b65bea7a20be5b26cafe58e809e902870a7dbad9c5cbf02e9787faa3735eef6e"
+      "path": "_astro/nexara-guide.B-jUn041.js",
+      "sha256": "e91876bfda3fbf86fcf14638f18399bce295d4bc372118b0aba3de34ec6a0473"
     },
     {
       "path": "_astro/nexara-head02-v2-DJyG5Sw4.DJyG5Sw4.glb",
@@ -43,12 +43,12 @@
       "sha256": "7644cfa34644c0f8449d12ea3f0b955565f6d773a5e76f9ffdce3c5f2f7e9dc5"
     },
     {
-      "path": "_astro/static-work.BK6IEagj.js",
-      "sha256": "8e20aa5ee1cc303161d5fcc9ac01b00af7ceeed2eeb7faeecf83b175533568d9"
+      "path": "_astro/static-work.Dct9eVnC.js",
+      "sha256": "cf002620914c1dca7c5c595e900759ced31b5e98767a59ddbf4766dc16f82bc2"
     },
     {
       "path": "index.html",
-      "sha256": "34e38a05f212ccc31d01e7471afc66b25ab495ed654bbf25926ed5829747fbfc"
+      "sha256": "98ab1808c17a2a30a62ddf70077c0f41594a52067b3cc95c3d365e090693fa3e"
     },
     {
       "path": "vendor/core-energy/README.md",
